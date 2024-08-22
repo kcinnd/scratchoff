@@ -1,0 +1,60 @@
+body, html {
+  padding: 20px 0;
+  cursor: url('https://i.imgur.com/sKjmO5v.png'), pointer;
+}
+
+.container {
+  border: 3px solid #6CCFD6;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 0px auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.canvas {
+  position: absolute;
+  top: 0;
+  width: 500px;
+  height: 500px;
+  background-size: 100%;
+}
+
+.form {
+  padding: 20px;
+  width: 500px;
+  height: 500px;
+}
+
+#ransomizer {
+  font-size:3em;
+  line-height: normal;
+  word-spacing:0.5em;
+}
+
+#ransomizer div {
+  display:inline-block;
+}
+
+#ransomizer .rww {
+  white-space: pre;
+  display:inline;
+  margin-left: .2em;
+  margin-right: .2em;
+}
+
+#ransomizer .rr {
+  -ms-transform: rotate(1.5deg);
+  -webkit-transform: rotate(1.5deg);
+  transform: rotate(1.5deg);
+}
+
+#ransomizer .rl {
+  -ms-transform: rotate(-1.5deg);
+  -webkit-transform: rotate(-1.5deg);
+  transform: rotate(-1.5deg);
+}
