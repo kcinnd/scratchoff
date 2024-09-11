@@ -26,6 +26,7 @@ html {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
+  transform: translateY(50%);
 }
 
 .canvas {
