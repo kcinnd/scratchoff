@@ -23,12 +23,12 @@
     1.2px 134.4px 177.4px -1.2px hsl(var(--shadow-color) / 0.58);
 }
 body {
-  margin: 0 auto;
-  padding: 30px 0;
+  margin: 0;
+  padding: 0;
 }
 html {
-  padding: 30px 0;
-  margin: 0 auto;
+  padding: 0;
+  margin: 0;
   cursor: url('https://i.imgur.com/sKjmO5v.png'), pointer;
   background-repeat: no-repeat;
   background-position: fixed;
